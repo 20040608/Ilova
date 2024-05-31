@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    padding: 5px 0;
+}
+
+.contaner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 1488px;
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+.head {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.header-text {
+    flex: 1;
+    text-align: left;
+    font-size: 10px;
+    margin-left: 15px;
+    width: 177px;
+    color: #004d40;
+}
+
+.language-switcher {
+    background-color: #e9ecef;
+    border-radius: 12px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 60px);
+    background-color: #ffffff;
+    background-image: radial-gradient(circle at 50% 50%, #a8e6cf, transparent);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 20px;
+    height: 100%;
+    align-items: center;
+}
+
+.content {
+    width: 1000px;
+    text-align: left;
+    margin-left: 70px;
+}
+
+.content h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.user-icon img {
+    height: 24px;
+}
+
+.box {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    text-align: left;
+    margin: 100px 15px;
+}
+
+.box-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #004d40;   
+}
+
+.box-p {
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: #004d40; 
+}
+
+.grop {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+}
+
+.input-group-p {
+    font-size: 12px;
+}
+
+.input-tel {
+    border: none;
+    background-color: #f8f9fa;
+}
+
+.input-tel:hover {
+    border: none;
+}
+
+.input-tel:active {
+    border: none;
+}
+
+.submit-btn {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    align-items: center;
+    background-color: #66e6b2;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.submit-btn:hover {
+    color: #004d40;
+}
+
+.submit-btn:active {
+    color: #004d40;
+}

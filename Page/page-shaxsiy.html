@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шахсий маълумот</title>
+    <link rel="stylesheet" href="/css/page-3.css">
+</head>
+<body>
+    <header>
+        <div class="contaner">
+           <div class="head">
+            <div class="logo">
+                <img src="/images/logo.png" width="50" height="50" alt="logo">
+                <samp>ҚAБУЛ</samp>
+            </div>
+            <div class="header-text">
+                Ўзбекистон Республикаси Мактабгача ва мактаб таълими вазирлиги
+            </div>
+            <div class="language-switcher">
+                Ўз
+            </div>
+        </div>
+        <div class="user-icon">
+            <img src="/images/user.png" alt="user">
+        </div>
+           </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="title">Шахсий маълумотлар</h1>
+            <div class="box-links">
+                <a class="links" href="./page-umumiy.html">
+                    Фойдаланувчининг умумий маълумотлари 
+                </a>
+                /
+                <a class="links" style="color: #000;" href="#">
+                    Шахсий маълумотлар 
+                </a>
+                /
+                <a class="links" style="color: #000;" href="./page-bola.html">
+                    Боланинг маълумотлари 
+                </a>
+            </div>
+            <form class="form-box" id="personal-info-form">
+                <div class="box">
+                <div class="box-in">
+                    <label class="box-label" for="document-series">Ҳужжат серияси</label>
+                    <input placeholder="AA" class="box-input" type="text" id="document-series" name="document-series" required>
+                </div>
+    
+                <div class="box-in">
+                    <label class="box-label" for="document-number">Ҳужжат рақами</label>
+                    <input placeholder="7777777" class="box-input" type="text" id="document-number" name="document-number" required>
+                </div>
+
+                <div class="box-in">
+                    <label class="box-label" for="date-of-issue">Туғилган санаси</label>
+                    <input class="box-input" type="date" id="date-of-issue" name="date-of-issue" required>
+                </div>
+    
+                <button class="box-button" type="button" onclick="search()">Қидириш</button>
+                </div>
+    
+               <div class="box">
+                <div class="box-but">
+                   <div class="box-in">
+                        <label class="box-label" for="pinfl">ЖШИИР</label>
+                        <input class="box-input" type="text" id="pinfl" name="pinfl" required>
+                   </div>
+                   <div class="box-in">
+                        <label class="box-label" for="date-of-birth">Берилган вақти</label>
+                        <input class="box-input" type="date" id="date-of-birth" name="date-of-birth" required>
+                   </div>
+                </div>
+    
+                <div class="box-but">
+                   <div class="box-in" style="padding-right: 310px;">
+                        <label class="box-label" for="full-name">Ф.Ш.И.</label>
+                        <input class="box-input" type="text" id="full-name" name="full-name" required>
+                   </div>
+                    <div class="box-in" style="padding-right: 310px;">
+                        <label class="box-label" for="issued-by">Ким томонидан берилган</label>
+                        <input class="box-input" type="text" id="issued-by" name="issued-by" required>
+                    </div>
+                </div>
+               </div>
+    
+                <div class="box-in" style="max-width: 689px;">
+                    <label  class="box-label" for="citizenship">Фуқаролиги</label>
+                    <select style="padding-left: 0;" class="box-input" id="citizenship" name="citizenship" required>
+                    <option value="kuyidagilardan">Қуйидагилардан танланг</option>
+                    </select>
+                </div>
+    
+                <div class="box-p">
+                    <input class="box-p--in" type="checkbox" id="other-residents" name="other-residents">
+                    <label for="other-residents">Тошкент шаҳри ва вилоят марказларидан ташқари бошқа ҳудудда истиқомат қилувчилар</label>
+                </div>
+    
+                <a class="box-href" href="./page-bola.html">Кейингиси</a>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

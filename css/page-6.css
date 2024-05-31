@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    padding: 5px 0;
+}
+
+.contaner {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    width: 1488px;
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+.head {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.header-text {
+    flex: 1;
+    text-align: left;
+    font-size: 10px;
+    margin-left: 15px;
+    width: 177px;
+    color: #004d40;
+}
+
+.language-switcher {
+    background-color: #e9ecef;
+    border-radius: 12px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.user-icon img {
+    height: 24px;
+    margin-top: 10px;
+}
+
+.container {
+    width: 1200px;
+    text-align: left;
+    align-items: center;
+    margin: 70px 100px;
+}
+
+.box-title {
+    font-size: 3.2em;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #004d40; 
+}
+
+.box {
+    display: flex;
+    margin: 10px 0;
+}
+
+.box-in {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 0 0;
+    background-color: #dedfe0;
+    padding: 10px 20px 0;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.box-input {
+    background-color: #dedfe0;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.box-label {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.box-input:hover {
+    border: none;
+}
+
+.box-input:active {
+    border: none;
+}
+
+.box-button {
+    padding: 9px 30px;
+    border: 1px solid #038e76;
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.box-but {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.box-p {
+    margin: 15px 0;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.box-p--in {
+    border: 1px solid #038e76;
+    cursor: pointer;
+}
+
+.box-href {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    color: #000;
+    background-color: #55d8a1;
+    padding: 15px 30px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+.box-href:hover {
+    background-color: #6debb6;
+    color: #004d40; 
+}
+
+.form-buttons {
+    margin-left: 426px;
+    margin-top: 50px;
+}
